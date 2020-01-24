@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="HorasH3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="MfgControl.AdvancedHMI.Controls" name="MfgControl.AdvancedHMI.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+  <data name="MessageDisplayByValue5.Messages" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>0,,16777215,0</value>
+  </data>
+  <data name="MessageDisplayByValue5.Messages1" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>1,Cambio de Rodamientos Ventilador Hoguera,-8372224,0</value>
+  </data>
+  <data name="MessageDisplayByValue5.Messages2" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>2,Cambio de Rodamientos Ventilador Chimenea,-8372224,0</value>
+  </data>
+  <data name="MessageDisplayByValue5.Messages3" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>3,Cambio de Rodamientos Ventilador Cascarilla,-8372224,0</value>
+  </data>
+  <data name="MessageDisplayByValue5.Messages4" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>4,Cambio de Rodamientos TH Cascarilla,-8372224,0</value>
+  </data>
+  <data name="MessageDisplayByValue5.Messages5" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>5,Cambio de Rodamientos Ventilador SC-02,-8372224,0</value>
+  </data>
+  <data name="MessageDisplayByValue5.Messages6" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>6,Cambio de Rodamientos Ventilador SC-03,-8372224,0</value>
+  </data>
+  <data name="MessageDisplayByValue5.Messages7" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>7,Cambio de Rodamientos Ventilador SC-04,-8372224,0</value>
+  </data>
+  <data name="MessageDisplayByValue5.Messages8" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>8,Cambio de Rodamientos Ventilador SC-05,-8372224,0</value>
+  </data>
+  <data name="MessageDisplayByValue4.Messages" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>0,,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue4.Messages1" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>1,Cambio Fajas Ventilador Hoguera,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue4.Messages2" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>2,Cambio Fajas Ventilador Chimenea,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue4.Messages3" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>3,Cambio Fajas Ventilador Cascarilla,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue4.Messages4" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>4,Cambio Cadena TH Cascarilla,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue4.Messages5" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>5,Cambio Fajas Ventilador SC-02,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue4.Messages6" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>6,Cambio Fajas Ventilador SC-03,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue4.Messages7" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>7,Cambio Fajas Ventilador SC-04,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue4.Messages8" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>8,Cambio Fajas Ventilador SC-05,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue3.Messages" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>0,,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue3.Messages1" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>1,Cambio de Fajas Ventilador Hoguera,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue3.Messages2" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>2,Cambio de Fajas Ventilador Chimenea,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue3.Messages3" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>3,Cambio de Fajas Ventilador Cascarilla,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue3.Messages4" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>4,Cambio de Cadena TH Cascarilla,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue3.Messages5" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>5,Cambio de Faja Ventilador SC-02,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue3.Messages6" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>6,Cambio de Faja Ventilador SC-03,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue3.Messages7" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>7,Cambio de Faja Ventilador SC-04,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue3.Messages8" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>8,Cambio de Faja Ventilador SC-05,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>0,,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages1" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>1,Cambio de Fajas Ventilador Hoguera,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages2" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>2,Cambio de Fajas Ventilador Chimenea,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages3" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>3,Cambio de Fajas Ventilador Cascarilla,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages4" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>4,Cambio de Cadena TH Cascarilla,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages5" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>5,Cambio de Faja Ventilador SC-02,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages6" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>6,Cambio de Faja Ventilador SC-03,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages7" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>7,Cambio de Faja Ventilador SC-04,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages8" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>8,Cambio de Faja Ventilador SC-05,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>0,,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages1" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>1,Cambio de Fajas Ventilador Hoguera,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages2" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>2,Cambio de Fajas Ventilador Chimenea,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages3" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>3,Cambio de Fajas Ventilador Cascarilla,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages4" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>4,Cambio de Cadena TH Cascarilla,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages5" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>5,Cambio de Faja Ventilador SC-02,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages6" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>6,Cambio de Faja Ventilador SC-03,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages7" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>7,Cambio de Faja Ventilador SC-04,-16776961,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages8" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>8,Cambio de Faja Ventilador SC-05,-16776961,0</value>
+  </data>
+  <assembly alias="MfgControl.AdvancedHMI.Drivers" name="MfgControl.AdvancedHMI.Drivers, Version=3.99.19.2, Culture=neutral, PublicKeyToken=null" />
+  <data name="AnalogValueDisplay17.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>40385</value>
+  </data>
+  <data name="AnalogValueDisplay18.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>40383</value>
+  </data>
+  <data name="AnalogValueDisplay19.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>40381</value>
+  </data>
+  <data name="AnalogValueDisplay20.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>40379</value>
+  </data>
+  <data name="AnalogValueDisplay21.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>40377</value>
+  </data>
+  <data name="AnalogValueDisplay22.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>40375</value>
+  </data>
+  <data name="AnalogValueDisplay23.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>40373</value>
+  </data>
+  <data name="AnalogValueDisplay24.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>40372</value>
+  </data>
+  <data name="AnalogValueDisplay9.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>40386</value>
+  </data>
+  <data name="AnalogValueDisplay10.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>40384</value>
+  </data>
+  <data name="AnalogValueDisplay11.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>40382</value>
+  </data>
+  <data name="AnalogValueDisplay12.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>40380</value>
+  </data>
+  <data name="AnalogValueDisplay13.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>40378</value>
+  </data>
+  <data name="AnalogValueDisplay14.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>40376</value>
+  </data>
+  <data name="AnalogValueDisplay15.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>40374</value>
+  </data>
+  <data name="AnalogValueDisplay16.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>40371</value>
+  </data>
+  <data name="AnalogValueDisplay8.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Horno3_SDI.ML14</value>
+  </data>
+  <data name="AnalogValueDisplay7.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Horno3_SDI.ML13</value>
+  </data>
+  <data name="AnalogValueDisplay6.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Horno3_SDI.ML12</value>
+  </data>
+  <data name="AnalogValueDisplay5.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Horno3_SDI.ML11</value>
+  </data>
+  <data name="AnalogValueDisplay4.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Horno3_SDI.ML24</value>
+  </data>
+  <data name="AnalogValueDisplay3.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Horno3_SDI.ML23</value>
+  </data>
+  <data name="AnalogValueDisplay2.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Horno3_SDI.ML22</value>
+  </data>
+  <data name="AnalogValueDisplay1.PLCAddressValue" type="MfgControl.AdvancedHMI.Drivers.PLCAddressItem, MfgControl.AdvancedHMI.Drivers">
+    <value>Horno3_SDI.ML21</value>
+  </data>
+</root>

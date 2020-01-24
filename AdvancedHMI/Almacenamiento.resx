@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Elevado.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="MfgControl.AdvancedHMI.Controls" name="MfgControl.AdvancedHMI.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+  <data name="MessageDisplayByValue2.Messages" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>0,Sin Falla,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages1" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>1,Falla TH-51,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages2" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>2,Falla TH-40,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages3" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>3,Falla TH-42,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages4" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>4,Falla TH-43,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages5" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>5,Falla TH-48,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages6" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>6,Falla TH-50,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages7" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>7,Falla TH-53,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages8" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>8,Falla TH-54,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages9" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>9,Falla TH-52,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages10" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>10,Falla TH-41,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages11" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>11,Falla TH-103,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages12" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>12,Falla TH-104,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages13" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>13,Falla EC-SS,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages14" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>14,Falla EC-16,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages15" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>15,Falla EC-04,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue2.Messages16" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>16,Falla EC-05,-65536,-16777216</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>0,En Pausa,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages1" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>1,Silo 1,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages2" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>2,Silo 2,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages3" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>3,Silo 3,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages4" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>4,Silo 4,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages5" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>5,Silo 5,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages6" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>6,Silo 6,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages7" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>7,Silo 7,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages8" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>8,Silo 8,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages9" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>9,Silo 9,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages10" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>10,Silo 10,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages11" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>11,Silo 11,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages12" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>12,Silo 12,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages13" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>13,Silo 13,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages14" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>14,Silo 14,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages15" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>15,Silo 15,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages16" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>16,Silo 16,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages17" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>17,Silo 17,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages18" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>18,Silo 18,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages19" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>19,Silo 19,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages20" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>20,Silo 20,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages21" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>21,Silo 21,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages22" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>22,Silo 22,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages23" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>23,Silo 23,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages24" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>24,Silo 24,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages25" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>25,Silo 25,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages26" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>26,Silo 26,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages27" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>27,Silo 27,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages28" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>28,Silo 28,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages29" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>29,Silo 29,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages30" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>30,Silo 30,0,0</value>
+  </data>
+  <data name="MessageDisplayByValue1.Messages31" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
+    <value>31,Silo 31,0,0</value>
+  </data>
+</root>
